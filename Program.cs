@@ -1,5 +1,5 @@
 ﻿using System;
-
+using ClassLibrary1;
 namespace ConsoleApp1
 {
     class Program
@@ -7,7 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             FourthClass.M1();
-
+            Class1.M2();
             Console.ReadLine();
             //object o;
             //Console.WriteLine("Hello world");
